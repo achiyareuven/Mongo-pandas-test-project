@@ -10,5 +10,3 @@ class Manager:
         df= self.fetcher.to_data_frame()
         df=self.processor.process(df)
         return df.to_dict(orient="records")
-# c=Manager(r"C:\Users\achiy\PycharmProjects\Mongo-pandas-test-project\data\weapon_list.txt")
-# c.run()

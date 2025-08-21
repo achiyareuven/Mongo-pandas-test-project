@@ -50,9 +50,3 @@ class TextProcessor:
         return df
 
 
-
-# s= TextProcessor(r"C:\Users\achiy\PycharmProjects\Mongo-pandas-test-project\data\weapon_list.txt")
-# s.find_weapon("gun ,mmm od")
-#
-# s=TextProcessor()
-# s.find_sentiment("hgdfkhghk jherio ufgk jehrjnfk")
